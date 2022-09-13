@@ -1,0 +1,101 @@
+.contenedorRedes{
+    grid-row: 4/-1;
+    display: flex;
+    align-items: end;   
+    margin: 0 0 30px 10px;
+}
+
+.navList{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.listItem{
+    display: flex;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+.listItem::after{
+    content: "";
+    background: white;
+    width: 0;
+    height: 38px;
+    border-radius: 5px;
+    position: absolute;
+    transition: all .2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+.listItem:first-child::after{
+    background-color: #0077B5;
+}
+.listItem:nth-child(2)::after{
+    background-color: #000;
+}  
+.listItem:nth-child(3)::after{
+    background: linear-gradient(52deg, rgba(255,192,80,1) 0%, rgba(215,63,142,1) 30%);
+}
+.listItem:last-child::after{
+    background-color: #475993;
+}
+.listItem:hover::after{
+    width: 170px;
+    left: 4px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.listItem:first-child:hover::after{
+    content: "Linkedin";
+    padding: 0 32px 0 0;
+    color: #fff;
+}
+.listItem:nth-child(2):hover::after{
+    content: "Github";
+    padding: 0 38px 0 0;
+    color: #fff;
+}
+.listItem:nth-child(3):hover::after{
+    content: "Instagram";
+    padding: 0 20px 0 0;
+    color: #fff;
+}
+.listItem:last-child:hover::after{
+    content: "Facebook";
+    padding: 0 25px 0 0;
+    color: #fff;
+}
+
+.listItem img{
+    position: relative;
+    z-index: 100;
+    top: 2.5px;
+    border-radius: 4px;
+}
+
+/* Navegacion entre paginas */
+
+.contenedorNav{
+    height: 80px;
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    right: 10px;
+    top: calc(45%);
+}
+.navSpan{
+    height: 13px;
+    width: 13px;
+    background-color: #fff;
+    border-radius: 50%;
+    list-style: none;
+    transition: all.2s;
+}
+.navSpan:hover{
+    cursor: pointer;
+}
+
+
+
