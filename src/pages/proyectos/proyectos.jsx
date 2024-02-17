@@ -12,7 +12,7 @@ const Proyectos = () => {
         alt="imagen repositorio"
         titulo="Crud MERN"
         texto="Crud MERN conectado a la base de datos Mongo, es un proyecto 
-        que está en su estapa de desarrollo.
+        que está en su etapa de desarrollo.
         "
         lenguaje={<li></li>}
       />
