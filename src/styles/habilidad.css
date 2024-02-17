@@ -1,0 +1,33 @@
+.habilidad__article {
+  height: 140px;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem 0;
+}
+.habilidad__img {
+  height: 80px;
+  width: 80px;
+  border-radius: 5px;
+  padding: 15px;
+  transition: all 0.1s ease;
+}
+.habilidad__img:hover {
+  animation-name: burble;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+}
+@keyframes burble {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

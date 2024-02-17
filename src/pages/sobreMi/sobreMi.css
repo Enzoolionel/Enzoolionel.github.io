@@ -1,0 +1,21 @@
+.contenedor__ocupaciones{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem 0;
+}
+.ocupaciones__h1, .ocupaciones__p{
+    height: max-content;
+    width: 600px;
+}
+.ocupaciones__h1{
+    width: max-content;
+    font-size: 40px;
+    border-bottom: 1px solid #ffffff5d;
+}
+.ocupaciones__p{
+    text-align: justify;
+}

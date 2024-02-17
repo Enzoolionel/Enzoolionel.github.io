@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body::-webkit-scrollbar {
+  display: none; /* WebKit (Chrome, Safari, etc.) */
+}
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(20, 20, 20),
+    rgb(30, 30, 30),
+    rgb(50, 50, 50),
+    rgb(30, 30, 30),
+    rgb(20, 20, 20)
+  );
+  color: var(--fuente-color);
+}
+html {
+  scroll-behavior: smooth;
+}
