@@ -16,7 +16,7 @@ import "../../styles/botton.css";
 
 const Principal = () => {
   const [tema, setTema] = useState("dark");
-  const [temaIcon, setTemaIcon] = useState(null);
+  const [temaIcon, setTemaIcon] = useState(sol);
 
   useEffect(() => {
     const temaGuardado = localStorage.getItem("tema");
