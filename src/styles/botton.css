@@ -3,10 +3,8 @@
   position: relative;
   width: 160px;
   height: 45px;
-  background-color: var(--fondo-modal-color);
   display: flex;
   align-items: center;
-  color: white;
   flex-direction: column;
   justify-content: center;
   border: none;
@@ -14,7 +12,6 @@
   gap: 12px;
   border-radius: 8px;
   cursor: pointer;
-  /* z-index:; */
 }
 
 .section--botton::before, .proyecto__botton::before {

@@ -14,25 +14,12 @@
   background-color: transparent;
   z-index: 1;
 }
-.contenedor__ul.scroll {
-  background-color: var(--fondo-modal-color);
-  outline: 1px solid #fff;
-  box-shadow: 0 0 5px #fff;
-}
-
 .ul--item {
   font-size: 15px;
-  color: #fff;
   text-decoration: none;
   background-color: transparent;
 }
-.link-activo {
-  border-bottom: 1px solid var(--fuente-color);
-}
-.activo--efecto {
-  color: #000;
-}
-.hr {
+.hr-separador {
   height: 15px;
 }
 .ul--icon-e {
@@ -40,7 +27,6 @@
   font-weight: 400;
   font-style: normal;
   font-size: 40px;
-  color: var(--fuente-color);
   background-color: transparent;
   position: absolute;
   right: 96%;
@@ -61,9 +47,6 @@
 a {
   background-color: transparent;
 }
-nav img:hover {
+nav a:hover, nav img:hover {
   filter: brightness(250%);
-}
-nav a:hover {
-  text-shadow: 0 0 5px #fff;
 }

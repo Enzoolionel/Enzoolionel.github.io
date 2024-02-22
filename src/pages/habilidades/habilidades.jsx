@@ -10,20 +10,20 @@ import bootstrapIcon from "../../assets/bootstrap.svg";
 import sassIcon from "../../assets/sass.svg";
 import gitIcon from "../../assets/git.svg";
 
-const Habilidades = () => {
+const Habilidades = ({ tema }) => {
   return (
     <section id="habilidades" className="contenedor__habilidades">
-      <h1 className="habilidades__h1">Habilidades</h1>
+      <h1 className={`habilidades__h1 ${tema}`}>Habilidades</h1>
       <article className="habilidades__article">
-        <Habilidad src={jsIcon} habilidad="JavaScript" />
-        <Habilidad src={nodeIcon} habilidad="Nodejs" />
-        <Habilidad src={reactIcon} habilidad="React" />
-        <Habilidad src={mongoIcon} habilidad="Mongo" />
-        <Habilidad src={expressIcon} habilidad="Express" />
-        <Habilidad src={pythonIcon} habilidad="Python" />
-        <Habilidad src={bootstrapIcon} habilidad="Bootstrap" />
-        <Habilidad src={sassIcon} habilidad="Sass" />
-        <Habilidad src={gitIcon} habilidad="Git" />
+        <Habilidad tema={tema} src={jsIcon} habilidad="JavaScript" />
+        <Habilidad tema={tema} src={nodeIcon} habilidad="Nodejs" />
+        <Habilidad tema={tema} src={reactIcon} habilidad="React" />
+        <Habilidad tema={tema} src={mongoIcon} habilidad="Mongo" />
+        <Habilidad tema={tema} src={expressIcon} habilidad="Express" />
+        <Habilidad tema={tema} src={pythonIcon} habilidad="Python" />
+        <Habilidad tema={tema} src={bootstrapIcon} habilidad="Bootstrap" />
+        <Habilidad tema={tema} src={sassIcon} habilidad="Sass" />
+        <Habilidad tema={tema} src={gitIcon} habilidad="Git" />
       </article>
     </section>
   );

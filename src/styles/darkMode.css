@@ -1,0 +1,66 @@
+.dark-mode{
+  background-color: rgb(27, 27, 27);
+}
+.hr-separador.dark {
+  border-color: var(--hr-color-dark);
+}
+.proyecto__botton.dark {
+  color: var(--fuente-color-dark);
+  background-color: var(--fondo-modal-color-dark);
+}
+.section--botton.dark {
+  background-color: var(--fondo-modal-color-dark);
+  color: var(--fuente-color-dark);
+}
+.span--e.dark {
+  color: var(--fuente-color-dark);
+}
+.section--subtitulo.dark {
+  color: var(--fuente-color-dark);
+}
+.proyecto__parrafo.dark {
+  color: var(--fuente-color-dark);
+}
+.proyecto__titulo.dark {
+  color: var(--fuente-color-dark);
+}
+.ul--item.dark {
+  color: var(--fuente-color-dark);
+}
+.section--titulo.dark {
+  color: var(--fuente-color-dark);
+}
+.ul--icon-e.dark {
+  color: var(--fuente-color-dark);
+}
+.habilidades__h1.dark {
+  color: var(--fuente-color-dark);
+  border-bottom: 1px solid var(--fuente-color-dark);
+}
+.habilidad__h3.dark {
+  color: var(--fuente-color-dark);
+}
+.contenedor__ul.scroll.dark {
+  background-color: var(--fondo-modal-color-dark);
+  outline: 1px solid var(--fuente-color-dark);
+  box-shadow: 0 0 5px var(--fuente-color-dark);
+}
+.link-activo.dark {
+  border-bottom: 1px solid var(--fuente-color-dark);
+}
+nav a.dark:hover {
+  text-shadow: 0 0 5px var(--fuente-color-dark);
+}
+.footer__h3.dark {
+  color: var(--fuente-color-dark);
+}
+.sobreMi__h1.dark {
+  color: var(--fuente-color-dark);
+  border-bottom: 1px solid var(--fuente-color-dark);
+}
+.sobreMi__p.dark {
+  color: var(--fuente-color-dark);
+}
+.proyecto__article.dark {
+  box-shadow: 1px 1px 4px #dadada8f;
+}

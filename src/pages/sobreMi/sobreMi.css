@@ -1,4 +1,4 @@
-.contenedor__ocupaciones{
+.contenedor__sobreMi{
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -7,15 +7,14 @@
     align-items: center;
     gap: 2rem 0;
 }
-.ocupaciones__h1, .ocupaciones__p{
+.sobreMi__h1, .sobreMi__p{
     height: max-content;
     width: 600px;
 }
-.ocupaciones__h1{
+.sobreMi__h1{
     width: max-content;
     font-size: 40px;
-    border-bottom: 1px solid #ffffff5d;
 }
-.ocupaciones__p{
+.sobreMi__p{
     text-align: justify;
 }

@@ -1,6 +1,33 @@
-:root{
-    --fuente-color: #dfdfdf;
-    --fondo-color: #1a1a1d;
-    --fondo-modal-color: #242424ea;
-    --sombra-color: #B6BBC4;
+:root {
+
+    --fuente-gral: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  /* Dark mode */
+  --fuente-color-dark: #dfdfdf;
+  --fondo-gral-color-dark: linear-gradient(
+    to bottom right,
+    rgb(20, 20, 20),
+    rgb(30, 30, 30),
+    rgb(50, 50, 50),
+    rgb(30, 30, 30),
+    rgb(20, 20, 20)
+  );
+  --fondo-modal-color-dark: #444141ea;
+  --sombra-color-dark: #b6bbc4;
+  --hr-color-dark: #ffffff;
+
+  /* Light mode */
+  --fuente-color: #141414;
+  --fondo-gral-color: linear-gradient(
+    to bottom right,
+    rgb(200, 200, 200),
+    rgb(180, 180, 180),
+    rgb(150, 150, 150),
+    rgb(200, 200, 200),
+    rgb(180, 180, 180)
+  );
+  --fondo-modal-color: #b4b4b4ea;
+  --sombra-color: #b6bbc4;
+  --hr-color: #2e2e2e;
 }

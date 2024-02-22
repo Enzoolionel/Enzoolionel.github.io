@@ -34,10 +34,7 @@
 .section--botton {
   height: 40px;
   width: 150px;
-  background-color: #3a3a3a;
-  border: 2px solid rgb(231, 122, 122);
   border-radius: 5px;
-  color: #fff;
   font-size: 13px;
   text-decoration: none;
 }

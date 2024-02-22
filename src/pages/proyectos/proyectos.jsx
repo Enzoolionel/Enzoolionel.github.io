@@ -3,7 +3,7 @@ import "./proyectos.css";
 import servidorImg from "../../assets/servidor.png";
 import motorImg from "../../assets/motor.png";
 
-const Proyectos = () => {
+const Proyectos = ({tema}) => {
   return (
     <section id="proyectos" className="contenedor__proyectos">
       <Proyecto
@@ -14,7 +14,7 @@ const Proyectos = () => {
         texto="Crud MERN conectado a la base de datos Mongo, es un proyecto 
         que está en su etapa de desarrollo.
         "
-        lenguaje={<li></li>}
+        tema={tema}
       />
       <Proyecto
         href="https://github.com/Enzoolionel/app-demo"
@@ -24,6 +24,7 @@ const Proyectos = () => {
         texto="Simulación de Motor, está basado en objetos, se implementan 
         varias funcionalidades de JavaScript.
         "
+        tema={tema}
       />
     </section>
   );
