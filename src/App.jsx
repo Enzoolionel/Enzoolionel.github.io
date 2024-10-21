@@ -1,16 +1,15 @@
-import { BrowserRouter } from "react-router-dom";
-import PaginaPrincipal from "./pages/principal/paginaPrincipal";
-import './styles/app.css'
-
-
-
-
+import { Route, Routes } from "react-router-dom";
+import NavBar from "./components/NavBar";
+import Home from "./layout/Home";
 
 function App() {
   return (
-    <BrowserRouter>
-      <PaginaPrincipal/>
-    </BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/yo" element={<NavBar />} />
+      <Route path="/contacto" element={<NavBar />} />
+      <Route path="/portfolio" element={<NavBar />} />
+    </Routes>
   );
 }
 
