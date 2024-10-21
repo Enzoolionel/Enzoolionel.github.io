@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <nav className="w-screen absolute flex justify-center bottom-20">
       <ul
-        className={` bg-slate-600 flex py-4 px-7 gap-8 rounded-2xl opacity-60`}
+        className={`w-[700px] bg-slate-600 flex py-4 px-7 gap-8 rounded-2xl opacity-60`}
       >
         {Pages.map((page) => (
           <motion.li
