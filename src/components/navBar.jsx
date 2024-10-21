@@ -6,9 +6,9 @@ import { motion } from "framer-motion";
 const NavBar = () => {
   console.log(location.pathname);
   return (
-    <nav className="w-screen absolute flex justify-center bottom-20">
+    <nav className="w-screen  absolute flex justify-center bottom-20">
       <ul
-        className={`w-[700px] bg-slate-600 flex py-4 px-7 gap-8 rounded-2xl opacity-60`}
+        className={` bg-slate-600 flex py-6 px-24 gap-10 rounded-2xl opacity-60`}
       >
         {Pages.map((page) => (
           <motion.li
