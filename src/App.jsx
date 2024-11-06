@@ -1,16 +1,15 @@
-import { Route, Routes } from "react-router-dom";
-import NavBar from "./components/NavBar";
-import Home from "./layout/Home";
+import Header from "./layout/Header.jsx";
+import Main from "./layout/Main.jsx";
+import Footer from "./layout/Footer.jsx";
 
-function App() {
+const App = () => {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/yo" element={<NavBar />} />
-      <Route path="/contacto" element={<NavBar />} />
-      <Route path="/portfolio" element={<NavBar />} />
-    </Routes>
+    <>
+      <Header />
+      <Main />
+      <Footer />
+    </>
   );
-}
+};
 
 export default App;
