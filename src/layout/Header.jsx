@@ -1,5 +1,5 @@
 import Perfil from "../../public/Perfil.jpg";
-import Icon from "../components/icon.jsx";
+import Icon from "../components/Icon.jsx";
 import { dataNetwork } from "../data/data.js";
 
 const Header = () => {
