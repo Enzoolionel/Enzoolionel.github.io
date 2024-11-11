@@ -4,11 +4,11 @@ import Footer from "./layout/Footer.jsx";
 
 const App = () => {
   return (
-    <>
+    <section className="flex flex-col items-center bg-slate-700">
       <Header />
       <Main />
       <Footer />
-    </>
+    </section>
   );
 };
 

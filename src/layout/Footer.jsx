@@ -2,7 +2,7 @@ import logo from "../../public/logo.png";
 
 const Footer = () => {
   return (
-    <footer className="h-38 bg-slate-800 p-3">
+    <footer className="h-38 w-96 bg-slate-800 p-3">
       <section className="flex justify-between w-full h-full p-1 opacity-80 bg-slate-700 border border-slate-300 rounded-lg">
         <article className="flex flex-col pl-3 justify-center leading-5 text-slate-400">
           <a href="#">Link Numero 1</a>
@@ -15,7 +15,7 @@ const Footer = () => {
           <div className="relative top-8 right-1">⬆️</div>
         </article>
       </section>
-      <h3 className="text-center mt-2">©️ _EnzooLionel | ❤️</h3>
+      <h3 className="text-center mt-2 text-slate-300">©️ _EnzooLionel | ❤️</h3>
     </footer>
   );
 };

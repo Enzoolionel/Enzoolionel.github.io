@@ -4,7 +4,7 @@ import { routes } from "../data/data.js";
 
 const Main = () => {
   return (
-    <main className="dark:bg-slate-800 bg-slate-300 h-96 w-screen flex flex-wrap gap-3 justify-center content-center">
+    <main className="dark:bg-slate-800 bg-slate-300 h-96 w-96 flex flex-wrap gap-3 justify-center content-center">
       <Card
         titulo="Linkedin"
         subtitulo="Conoce mi Linkedin"
