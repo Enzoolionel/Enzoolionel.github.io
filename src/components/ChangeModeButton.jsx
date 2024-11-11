@@ -1,6 +1,24 @@
+import { useEffect } from "react";
+import { useState } from "react";
+
 const ChangeModeButton = () => {
+  const [isDarkMode, setIsDarkMode] = useState(() => {
+    return localStorage.getItem("darkMode") === "true";
+  });
+
+  // Actualizar el modo en el localStorage y el DOM cada vez que isDarkMode cambie
+  useEffect(() => {
+    localStorage.setItem("darkMode", isDarkMode);
+    if (isDarkMode) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, [isDarkMode]);
+
+  // Cambiar el modo oscuro
   const changeMode = () => {
-    document.documentElement.classList.toggle("dark");
+    setIsDarkMode((prevMode) => !prevMode);
   };
 
   return (
