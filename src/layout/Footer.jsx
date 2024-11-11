@@ -2,7 +2,7 @@ import logo from "../../public/logo.png";
 
 const Footer = () => {
   return (
-    <footer className="h-38 h-screen lg:w-96 bg-slate-800 p-3">
+    <footer className="h-38 w-screen lg:w-96 bg-slate-800 p-3">
       <section className="flex justify-between w-full h-full p-1 opacity-80 bg-slate-700 border border-slate-300 rounded-lg">
         <article className="flex flex-col pl-3 justify-center leading-5 text-slate-400">
           <a href="#">Link Numero 1</a>
