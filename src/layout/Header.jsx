@@ -38,7 +38,7 @@ const Header = () => {
   }, [letraIndex, palabraIndex]); // Ejecutar efecto cuando letraIndex o palabraIndex cambian
 
   return (
-    <header className="p-6 lg:w-96 h-[450px] dark:bg-slate-800 grid place-items-center grid-rows-2 grid-cols-[100px,1fr]">
+    <header className="p-6 w-screen lg:w-96 h-[450px] dark:bg-slate-800 grid place-items-center grid-rows-2 grid-cols-[100px,1fr]">
       <img
         src={Perfil}
         alt="Avatar del usuario"
